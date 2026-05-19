@@ -33,6 +33,8 @@ The system is designed as a modular Retrieval-Augmented Generation (RAG) pipelin
 - Ingestion Layer: PDF loading and document parsing  
 - Configuration Layer: centralized system configuration management  
 - Entry Point: application bootstrap (main.py)
+![System Architecture](./docs/system_architecture.png)
+![Project Structure](./docs/project_structure.png)
 
 ## System Initialization
 
@@ -82,5 +84,5 @@ Full technical walkthrough and live demo are available upon request.
 ## Author
 
 Leonardo Darrain Rocha  
-Senior Software Engineer
-https://www.linkedin.com/in/leonardo-darrain-rocha-a6062354/
+Senior Software Engineer  
+https://www.linkedin.com/in/leonardo-darrain-rocha-a6062354/  
