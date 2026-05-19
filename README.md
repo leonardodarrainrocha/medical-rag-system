@@ -61,10 +61,26 @@ For production deployment, this process is bypassed as a pre-built persistent ve
 - AWS EC2 GPU
 - NVIDIA CUDA runtime
 
-## Deployment
+## Deployment & Infrastructure
 
 The system is currently deployed in production on AWS EC2 GPU infrastructure using Dockerized services.
 It exposes a stable REST API for real-time inference and retrieval operations.
+
+![System Architecture](./docs/aws_ec2_instance.png)
+
+![System Architecture](./docs/aws_gpu_runtime.png)
+
+![System Architecture](./docs/production_startup_logs.png)
+
+## API Demonstration
+
+This section shows real examples of the RAG system using the FastAPI Swagger interface. Each request includes a user query and the system response, demonstrating the full pipeline from retrieval to answer generation using a local LLM. The examples reflect how the system behaves in a production like environment.
+
+![System Architecture](./docs/swagger_rag_response_01.png)
+
+![System Architecture](./docs/swagger_rag_response_02.png)
+
+![System Architecture](./docs/swagger_rag_response_03.png)
 
 ## Key Design Decisions
 
