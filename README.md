@@ -84,7 +84,7 @@ This section shows real examples of the RAG system using the FastAPI Swagger int
 
 ## Key Design Decisions
 
-- No runtime document ingestion (precomputed vector database bae on 3314 medical pdf sheets)
+- No runtime document ingestion (precomputed vector database based on 3314 medical PDF pages)
 - Fully self-hosted inference (no managed AI APIs)
 - Persistent vector storage for deterministic retrieval
 - GPU-optimized inference pipeline
