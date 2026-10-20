@@ -6,6 +6,8 @@ This project is a fully self-hosted Retrieval-Augmented Generation (RAG) system 
 It combines local LLM inference, persistent vector search, and a production-grade API layer to deliver real-time AI responses.
 The system was built with a strong focus on infrastructure ownership, reliability, and deployment realism, avoiding dependency on managed AI platforms.
 
+Production system and source code available for live demonstration during technical interviews.
+
 ## Key Features
 
 - End-to-end RAG pipeline built from scratch
